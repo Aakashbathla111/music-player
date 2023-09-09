@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge " >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" description="music_player_without_adds">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+      <nav>
+        <div id="toggle">
+            <div id="inside"></div>
+        </div>
+      </nav>
+      <div id="heading"><h1>Music Player</h1></div>
+      <div id="main">
+        <div class="songsname">
+            <span>
+                Filter by Genre:
+            </span>
+            <form>
+                <select>
+                    <option selected>All</option>
+                    <option>Rock</option>
+                    <option>Pop</option>
+                    <option>Hip-hop</option>
+                </select>
+            </form>
+            <div id="songname"><h3>All Songs</h3>
+                <div id="addsong">
+                    <div>
+                        <span class="songplay">Jeena-Jeena</span><span> - Atif Aslam</span>
+                    </div>
+                    <div>
+                       <span class="songplay">Shape-of-You</span><span> - Ed Sheeran</span>
+                    </div>
+                    <div>
+                        <span class="songplay">Rockabye</span><span> - Clean Bandit</span>
+                    </div>
+                    <div>
+                        <span class="songplay">Deva-Deva</span><span> - Arijit Singh</span>
+                    </div>
+                    <div>
+                        <span class="songplay">Hits-Different</span><span> - Taylor Swift</span>
+                    </div>
+                    <div>
+                        <span class="songplay">Baby</span><span> - Justien Bieber</span>
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </div>
+        <div id="current">
+            <div id="songinfo">
+                <div id="imgcontain">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/2/22/Jeena_Jeena_%282015%29_-_Album_Cover.jpeg">
+                </div>
+                <div id="information">
+                    <div class="info">
+                        <h2>Jeena-Jeena</h2>
+                        <p>Atif Aslam</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div id="audio">
+                <audio id="aud" controls>
+                 <source src="Jeena Jeena.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div id="prev-next">
+                <button id="prev"><i class="fa-solid fa-caret-left"></i></button>
+                <button id="next"><i class="fa-solid fa-caret-left fa-rotate-180"></i></button>
+                <div>
+                    <button id="add">Add to playlist</button>
+                </div>
+            </div>
+            
+        </div>  
+        <div id="playlistsect">
+            <div id="label">
+               <form>
+                <input type="text" placeholder="Enter playlist name">
+                <button id="playlistbtn" type="button">Create Playlist</button>
+
+               </form>
+            </div>
+            <div id="myplay">
+               <div id="songsinplaylist">
+                 <h3>Current Playlist</h3>
+               </div>
+               <div id="playlistname">
+                <h3>
+                    All Playlist
+                </h3>
+
+               </div>
+            </div>
+        </div>
+      </div>
+      
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

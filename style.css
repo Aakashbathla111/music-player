@@ -1,0 +1,211 @@
+body{
+    background-color: grey;
+    transition: 1s;
+}
+nav{
+    height: 40px;
+}
+nav>div{
+    width:60px;
+    height:30px;
+    background-color: darkgray;
+    border: 1px solid rgb(208, 200, 200);
+    border-radius: 100px;
+    position: fixed;
+    top:1%;
+    right:3%;
+}
+#inside{
+    width:25px;
+    height: 25px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    margin:2px;
+    position: absolute;
+
+}
+#heading{
+    text-align: center;
+}
+#main{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#main>div{
+   
+    height: 100%;
+
+}
+.songsname {
+    width:25%;
+    margin-left: -4px;
+    border-radius: 10px;
+    background-color: rgb(122, 151, 255);
+    padding: 25px;
+    font-size: 1.5rem;
+    
+
+}
+#control span{
+    color:black;
+}
+form{
+    display: inline;
+    margin-left: 10px;
+}
+select{
+    background-color: rgb(61, 102, 250);
+    height: 35px;
+    border-radius: 4px;
+}
+#addsong div{
+    margin-top: 10px;
+    background-color: rgb(61, 102, 250);
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    width:60%;
+    font-size: 1rem;
+}
+#addsong div:hover{
+    background-color: inherit !important;
+    cursor: pointer;
+}
+#current{
+    width:40%;
+    border-radius: 10px;
+    background-color: rgb(122, 151, 255);
+    padding: 25px;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    box-shadow: -2px -2px 3px 3px rgb(72, 16, 125);
+
+
+}
+#songinfo{
+    height: 50%;
+    width:90%;
+    background-color: rgb(61, 102, 250);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin: 15px;
+    box-shadow: -2px -2px 3px 3px rgb(72, 16, 125);
+}
+#songinfo div{
+    margin:10px;
+}
+#imgcontain img{
+    width: 90%;
+    height: 220px;
+    margin:auto 5%;
+}
+audio{
+    width:85%;
+    margin-left: 30px;
+}
+#information{
+    font-size: 1rem;
+    padding-left: 5%;
+}
+#information p{
+    margin-top: -4%;
+}
+#prev-next button{
+    height: 40px;
+    width:80px;
+    color: white;
+    background-color: blueviolet;
+
+}
+#prev{
+    margin-left: 150px;
+}
+#next{
+    margin:20px;
+}
+#add{
+    margin-left: 40%;
+}
+#playlistsect{
+    width:25%;
+    margin-left: 10px;
+}
+#label{
+    width: 95%;
+    height:auto;
+    
+}
+#label button{
+    color: white;
+    background-color: blueviolet;
+    height: 25px;
+}
+#label input{
+    height: 30px;
+}
+#myplay{
+    width:80%;
+    height:96%;
+    background-color:  rgb(122, 151, 255);
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-top: 15px;
+    box-shadow: -2px -2px 3px 3px rgb(72, 16, 125);
+    border-radius: 10px;
+}
+.shadow{
+    box-shadow: -2px -2px 3px 3px grey !important;
+}
+.back{
+    background-color: grey !important;
+}
+#playlistname div{
+    font-size: 1.2rem;
+    width:80%;
+    height:auto;
+    border-radius: 4px;
+    background-color: rgb(61, 102, 250);
+    text-align: center;
+    margin-top: -4px;
+    margin-top: 4px;
+    color:white;
+    margin-left: 5%;
+    margin-top: 10px;
+    background-color: rgb(61, 102, 250);
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    
+
+}
+#songsinplaylist div{
+    width:80%;
+    font-size: 1rem;
+    height:auto;
+    border-radius: 4px;
+    background-color: rgb(61, 102, 250);
+    text-align: center;
+    margin-top: -4px;
+    margin-top: 4px;
+    color:white;
+    margin-left: 5%;
+    margin-top: 10px;
+    background-color: rgb(61, 102, 250);
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+
+
+}
+#songsinplaylist div:hover{
+    background-color: inherit !important; 
+    cursor: pointer;
+}
+#playlistname div:hover{
+    background-color: inherit !important;
+    cursor: pointer;
+}
